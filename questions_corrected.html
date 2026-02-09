@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions & Answers - Indrashis Manna</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="profile-image">
+            <img
+                src="https://i.ibb.co/Gvk3GS3h/picture.jpg"                 
+                alt="Indrashis Manna Profile Picture">
+        </div>
+        <h1>Indrashis Manna</h1>
+        <p>Computer Science Engineer | Web Developer | Problem Solver</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="technical.html">Technical</a>
+        <a href="navy_ssb.html">NAVY & SSB</a>
+        <a href="contact.html">Contact</a>
+        <a href="questions.html">Q&A</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Introduction -->
+        <section class="fade-in">
+            <h2>Assignment Questions & Answers</h2>
+            <p>
+                As part of my HTML/CSS assignment, I have answered all the required questions below.
+                This page explains the design choices, implementation decisions, and technical concepts
+                used in building this portfolio website.
+            </p>
+        </section>
+
+        <!-- Q&A Section -->
+        <section class="fade-in">
+
+            <!-- Q1 -->
+            <div class="qa-item">
+                <div class="question">1. What are the two main sections of an HTML file?</div>
+                <div class="answer">
+                    <p>The two main sections of an HTML file are:</p>
+                    <ul>
+                        <li><strong>&lt;head&gt; section:</strong> Contains metadata like title, character encoding,
+                            linked CSS files, JavaScript files, and fonts.</li>
+                        <li><strong>&lt;body&gt; section:</strong> Contains visible content such as text, images,
+                            links, forms, and layout elements.</li>
+                    </ul>
+                    <p>
+                        In this website, the <code>&lt;head&gt;</code> section includes meta tags, CSS links,
+                        and Google Fonts, while the <code>&lt;body&gt;</code> section contains all visible elements.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="qa-item">
+                <div class="question">2. Did you separate your HTML and CSS into separate files?</div>
+                <div class="answer">
+                    <p><strong>Yes, HTML and CSS are separated into different files.</strong></p>
+                    <ul>
+                        <li>Improves readability and maintainability</li>
+                        <li>Allows reuse of styles across pages</li>
+                        <li>Improves performance through caching</li>
+                        <li>Makes debugging easier</li>
+                    </ul>
+                    <p>The CSS is stored in <code>style.css</code> and linked to all HTML pages.</p>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="qa-item">
+                <div class="question">3. Which HTML tag did you use to link HTML and CSS?</div>
+                <div class="answer">
+                    <p>I used the <code>&lt;link&gt;</code> tag inside the <code>&lt;head&gt;</code> section.</p>
+                    <pre><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
+                    <p>This ensures styles are loaded before the page content is rendered.</p>
+                </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="qa-item">
+                <div class="question">4. If not separated, which tags could specify CSS?</div>
+                <div class="answer">
+                    <p><strong>Not applicable</strong>, as CSS is separated.</p>
+                    <ul>
+                        <li><code>&lt;style&gt;</code> tag for internal CSS</li>
+                        <li><code>style</code> attribute for inline CSS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="qa-item">
+                <div class="question">5. In which section did you put the CSS link?</div>
+                <div class="answer">
+                    <p>The CSS link is placed inside the <strong><code>&lt;head&gt;</code></strong> section.</p>
+                    <ul>
+                        <li><code>&lt;meta&gt;</code> tags</li>
+                        <li><code>&lt;title&gt;</code></li>
+                        <li><code>&lt;link&gt;</code> and <code>&lt;script&gt;</code> tags</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Q6 -->
+            <div class="qa-item">
+                <div class="question">6. Did you use any W3Schools template?</div>
+                <div class="answer">
+                    <p><strong>No.</strong> The website was built from scratch.</p>
+                    <p>W3Schools was used only as a reference for syntax and documentation.</p>
+                </div>
+            </div>
+
+            <!-- Q7 -->
+            <div class="qa-item">
+                <div class="question">7. Did you use any web fonts?</div>
+                <div class="answer">
+                    <p><strong>Yes, Google Fonts — Poppins.</strong></p>
+                    <pre><code>
+&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+rel="stylesheet"&gt;
+                    </code></pre>
+                </div>
+            </div>
+
+            <!-- Q8 -->
+            <div class="qa-item">
+                <div class="question">8. Single page or multiple pages?</div>
+                <div class="answer">
+                    <p><strong>Multiple HTML files.</strong></p>
+                    <ul>
+                        <li>index.html</li>
+                        <li>education.html</li>
+                        <li>hobbies.html</li>
+                        <li>technical.html</li>
+                        <li>navy_ssb.html</li>
+                        <li>contact.html</li>
+                        <li>questions.html</li>
+                    </ul>
+                    <p>Navigation is handled using <code>&lt;nav&gt;</code> and <code>&lt;a&gt;</code> tags.</p>
+                </div>
+            </div>
+
+            <!-- Q9 -->
+            <div class="qa-item">
+                <div class="question">9. How much time did you spend on fonts and colors 😅?</div>
+                <div class="answer">
+                    <p><strong>Approximately 2–3 hours.</strong></p>
+                    <p>Focused on readability, professionalism, and accessibility.</p>
+                </div>
+            </div>
+
+            <!-- Q10 -->
+            <div class="qa-item">
+                <div class="question">10. Sidebar or dropdown menu?</div>
+                <div class="answer">
+                    <p><strong>No.</strong> A simple horizontal navigation bar was used.</p>
+                    <p>Implemented using <code>&lt;nav&gt;</code> and <code>&lt;a&gt;</code> tags.</p>
+                </div>
+            </div>
+
+            <!-- Q11 -->
+            <div class="qa-item">
+                <div class="question">11. JavaScript for sidebar or dropdown?</div>
+                <div class="answer">
+                    <p><strong>Not applicable.</strong></p>
+                    <p>Basic JavaScript is used only for simple interactivity.</p>
+                </div>
+            </div>
+
+            <!-- Q12 -->
+            <div class="qa-item">
+                <div class="question">12. Is your website responsive?</div>
+                <div class="answer">
+                    <p><strong>Yes.</strong></p>
+                    <p>Responsive design adapts layout based on screen size.</p>
+                    <ul>
+                        <li>Viewport meta tag</li>
+                        <li>Flexible layouts</li>
+                        <li>CSS media queries</li>
+                    </ul>
+                    <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Conclusion -->
+        <section class="fade-in">
+            <h2>Project Summary</h2>
+            <p>
+                This portfolio demonstrates HTML5, CSS3, and JavaScript fundamentals,
+                responsive design principles, and clean code organization.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+     <footer>
+        <p>© 2026 Indrashis Manna. All Rights Reserved.</p>
+        <p>Built with ❤️ using HTML, CSS, and JavaScript</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/indrashismanna/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/IndrashisManna" target="_blank">GitHub</a>
+            <a href="https://x.com/indrashismanns" target="_blank">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
